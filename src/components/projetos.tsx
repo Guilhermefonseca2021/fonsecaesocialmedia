@@ -40,6 +40,7 @@ export default function Projetos() {
       </div>
       <div className="pt-10">
         <h2 className=" text-2xl font-bold ">Habilidades</h2>
+        
       </div>
     </div>
   );

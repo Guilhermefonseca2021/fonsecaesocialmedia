@@ -6,13 +6,13 @@ import Contato from "./components/contato";
 
 export default function App() {
   return (
-    <div className="">
+    <div className="min-h-screen bg-primary text-brand p-4">
       <Header />
-      <div className="py-12 flex flex-col items-center justify-centermin-w-full flex flex-col items-center justify-center gap-8">
+      <div className="flex flex-col items-center justify-centermin-w-full flex flex-col items-center justify-center gap-8">
         <AboutMe />
         <Projetos />
+        <Contato />
       </div>
-      <Contato />
     </div>
   );
 }
